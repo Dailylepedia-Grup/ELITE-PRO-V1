@@ -3,15 +3,15 @@ const fs = require('fs');
 const chalk = require('chalk');
 
 // Contact details
-global.ownernomer = process.env.OWNER_NOMER || "2348109263390";
-global.ytname = process.env.YT_NAME || "YT: @EliteProTech";
-global.socialm = process.env.SOCIAL_M || "GitHub: EliteProTech";
-global.location = process.env.LOCATION || "Nigeria, Port Harcourt";
+global.ownernomer = process.env.OWNER_NOMER || "6282164961900";
+global.ytname = process.env.YT_NAME || "YT: @m.trihamdani";
+global.socialm = process.env.SOCIAL_M || "GitHub: Dailylepedia-Grup";
+global.location = process.env.LOCATION || "Indonesia, Port Harcourt";
 
 // Creator details
-global.ownernumber = process.env.OWNER_NUMBER || '2348109263390';
-global.ownername = process.env.OWNER_NAME || 'ElitePro';
-global.botname = process.env.BOT_NAME || 'ELITE-PRO-V1';
+global.ownernumber = process.env.OWNER_NUMBER || '6282164961900';
+global.ownername = process.env.OWNER_NAME || 'M. Tri Hamdani';
+global.botname = process.env.BOT_NAME || 'Dailylepedia Assistant';
 
 // Default settings 
 global.prefa = process.env.PREFIX ? process.env.PREFIX.split(',') : ['', '!', '.', '#', '&'];
@@ -35,15 +35,15 @@ global.themeemoji = process.env.THEME_EMOJI || '👨‍💻';
 
 // Sticker details
 global.packname = process.env.PACKNAME || 'Sticker By';
-global.author = process.env.AUTHOR || 'ELITEPRO\n\nContact: +2348109263390';
+global.author = process.env.AUTHOR || 'DailylepediaAssistant\n\nContact: +6282164961900';
 // Default settings 2
 global.typemenu = process.env.TYPE_MENU || 'v2';
-global.wm = process.env.WM || "Youtube @EliteProTech";
-global.link = process.env.LINK || 'https://whatsapp.com/channel/0029VaXaqHII1rcmdDBBsd3g';
+global.wm = process.env.WM || "Youtube @m.trihamdani";
+global.link = process.env.LINK || 'https://whatsapp.com/channel/xxx';
 
 // Text bug
 global.xbugtex = {
-    xtxt: '👨‍💻ELITE-PRO👨‍💻',
+    xtxt: '👨‍💻Dailylepedia-Aasistant👨‍💻',
 };
 
 // Reply messages
