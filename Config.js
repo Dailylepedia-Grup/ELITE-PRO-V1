@@ -14,7 +14,7 @@ global.ownername = process.env.OWNER_NAME || 'M. Tri Hamdani';
 global.botname = process.env.BOT_NAME || 'Dailylepedia Assistant';
 
 // Default settings 
-global.prefa = process.env.PREFIX ? process.env.PREFIX.split(',') : ['', '!', '.', '#', '&'];
+global.prefix = process.env.PREFIX || '.';
 // Settings: true=enable false=disable
 global.autoRecording = process.env.AUTO_RECORDING === 'true';
 global.autoTyping = process.env.AUTO_TYPING === 'true';
